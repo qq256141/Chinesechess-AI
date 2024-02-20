@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Clients>
+<Client align="1" area="1.000000" wh="429" id="65448448"/>
+<Client align="0" area="0.536381" wh="403" id="65448532" form="TForm4" hide="0" width="375" height="356" splitter0="0" splitter1="0" splitter2="65448532" splitter3="65448448"/>
+<Client align="2" area="0.463619" wh="348" id="65212244" form="TForm3" hide="0" width="375" height="356" splitter0="65212244" splitter1="0" splitter2="0" splitter3="65448448"/>
+<Client align="2" area="1.000000" wh="199" id="65448616" form="TFormDockClient" hide="0" width="313" height="176" splitter0="65448616" splitter1="0" splitter2="0" splitter3="0">
+<Tab index="0">
+<Form class="TForm5" hide="0" width="547" height="300"/>
+<Form class="TForm5c" hide="0" width="325" height="215"/>
+</Tab>
+</Client>
+<Client align="-1" area="1.000000" wh="0" id="65694600" form="TForm5b" hide="1" width="514" height="501" splitter0="0" splitter1="0" splitter2="0" splitter3="0" left="687" top="318"/>
+</Clients>

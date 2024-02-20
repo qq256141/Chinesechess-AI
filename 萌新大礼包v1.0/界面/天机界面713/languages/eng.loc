@@ -1,0 +1,471 @@
+[file]
+description=English
+
+[app]
+caption=EThinker
+selectpgnfolder=Please select the folder to be imported
+noneedupdate=Your EThinker is up to date.
+pgndesc=Pgn files
+obxmldesc=Open book information exchange files
+exedesc=Executable files
+obkdesc=Book files
+ok=Ok
+cancel=Cancel
+add= Add 
+delete= Delete 
+up= Up 
+down= Down 
+find= Find 
+unknown=unknown
+unregisteredinfo= (Unregistered version, now will move fast, please register to remove this limitation)
+changelayout=EThinker needs to restart to apply the layout change, do you wish to continue?
+loadschemeerror=Failed to load the following schemem files from the following directories:\r\n\r\n%s\r\n\r\n%s\r\n
+buildunavailable=This build is not available any more, please use the latest one.
+registering=Registering...
+registersucceed=Registered
+registerfailed=Register failed
+changemovehelp=Right-clicking <Chang thinking move> button to think all moves again
+forcemovehelp=0 means disabled; 0.5-3 means a random value between 0.5 and 3
+
+[statusbar]
+invalidengine=Invalid
+loadenginefailed=The following engine(s) can't be loaded:
+secondname= s
+depthname=
+
+[menu]
+file= File 
+file.new=New
+file.open=Open...
+file.save=Save...
+file.exit=Exit
+
+game= Game 
+game.red=Computer is red
+game.black=Computer is black
+game.analyze=Analyze
+game.ponder=Ponder
+game.usebook=Use book
+game.usebook.open=Open book
+game.usebook.cloudend=Cloud end book
+game.playsound=Play sound
+game.showmove=Show thinking moves
+game.switchside=Switch moving side
+
+position= Position
+position.editposition=Set-up a position...
+position.copyposition=Copy position
+position.copymoves=Copy moves
+position.paste=Paste
+
+view= View 
+view.layout=Layout
+view.layout.horizontal=Horizontal layout
+view.layout.vertical=Vertical layout
+view.layout.tiled=Tiled layout
+view.window=Window
+view.boardscheme=Board scheme
+view.piecescheme=Piece scheme
+view.schemesize=Scheme size
+view.schemesize.small=Small
+view.schemesize.medium=Medium
+view.schemesize.large=Large
+view.language=Language
+view.flip=Flip board
+view.topmost=Always on top
+mgr= Manage 
+mgr.book=Manage books...
+mgr.engine=Manage engines...
+mgr.time=Manage time schemes...
+mgr.autoclicking=Manage auto-clicking schemes...
+
+tool= Tools 
+tool.makebook=Make a book...
+tool.convertbook=Convert a book...
+tool.bookusers=Book user tool...
+
+help= Help 
+help.connector=Connector...
+help.autoconnecting=Auto Connecting...
+help.yitian=Yitian...
+help.updatecheck=Check for updates
+help.about=About EThinker...
+
+[toolbar]
+file.new=Start a new game
+file.open=Open
+file.save=Save
+
+position.copyposition=Copy position
+position.copymoves=Copy moves
+position.paste=Paste
+game.red=Computer is red
+game.black=Computer is black
+game.analyze=Analyzing
+game.move=Stop thinking and move
+game.regret=Regret
+game.beginning=Move to beginning position
+game.backward4=Move backward 4 steps
+game.backward1=Move backward 1 step
+game.foreward1=Move foreward 1 step
+game.foreward4=Move foreward 4 steps
+game.end=Move to end position
+game.changemove=Chang thinking move
+connector.connect=Connect to other board
+connector.autoclicking=Auto clicking when connecting
+connector.forcemoveprefix=Hosting move time
+connector.forcemovepostfix=second(s)
+yitian.connect=Connect to Yitian
+view.flip=Flip board
+view.topmost=Always on top
+tools.option=Options
+
+[view.move]
+caption=Moves
+cloudname=Cloud
+name=Name
+source=Source
+score=Score
+winrate=Win rate
+win=Win
+draw=Draw
+loss=Loss
+rank=Rank
+status=Status
+note=Notes
+enabled=✓
+disabled=✗
+book.add=Add book entry...
+book.modify=Modify book entry...
+book.delete=Delete book entry
+book.importfolder=Import files in folder into book...
+book.importfiles=Import files into book...
+book.export=Export book...
+movenote=Move note
+exporting=Exporting obxml file, please wait...
+notauthor=Only book author can modify, convert or export encrypted book.
+
+[view.thinking]
+caption=Thinking
+depth=Depth
+score=Score
+time=Time
+ponder=Ponder
+moves=Moves
+copysel=Copy selected moves
+copyall=Copy all moves
+
+[view.history]
+caption=History
+name=Name
+score=Score
+depth=Depth
+time=Time
+book.appendmoves=Append moves to book...
+book.deletemoves=Delete moves from book...
+
+[view.yitian]
+title=Yitian
+caption=Yitian
+autoconnectingrunning=Yitian feature can't work together with auto connecting.
+connecting=Connecting to Yitian...
+number=Table
+redname=Red
+blackname=Black
+title=Title
+score=Score
+type=Type
+exit=Log out
+observe=Watch game
+changeside=Change side
+agree=Agree game
+join=Join game
+leave=Leave table %s
+requestdraw=Request draw
+judge=Arbitrate
+surrender=Give up
+redscore=Red score
+blackscore=Black score
+statusfmt=[name] is on [site]
+watchingfmt=[name] is watching game on table [tableid] on [site]
+waitingfmt=[name] is waiting on table [tableid] on [site]
+playingfmt=[name] is playing game on table [tableid] on [site]
+requestgame=Do you want to play game with [%s]?
+autoplaying=Auto playing
+collectgame=Collect games
+gamebanned=You lose the game qualification.
+
+[connector]
+redtomove=Red to move
+blacktomove=Black to move
+yourturn=Your turn, press F5 or double click board to synchronize
+
+[dialog.about]
+caption=About EThinker
+website=Official website:
+description=EThinker (%d-bit) Version %ws
+hid=Hardware id: %s
+copy=Copy hardware id
+copysucceed=Hardware id has been copied to clipboard.
+copyfailed=Failed to copy hardware id to clipboard, please restart EThinker or Windows, and try again.
+
+[dialog.editposition]
+caption=Position editor
+help=Right click to cancel picked piece or delete on-board piece 
+invalidfen=Invalid position, please check and re-position pieces.
+redtomove=Red to move
+blacktomove=Black to move
+startfen=Start Position
+currentfen=Current Position
+endfen=End Position
+normaldirection=Normal layout
+flippeddirection=Flipped layout
+
+[dialog.enginemgr]
+caption=Engine manager
+noengines=There are no engines to show
+repeatedcondition=Condition "%s" is repeatedly used, which is incorrect.
+name=Name
+thread=Thread count
+hash=Hash size
+path=Engine object
+unnamed=unnamed
+unpathed=click here to specify the engine object
+condition=Condition
+fullgame=Full game
+opengame=Open game
+middlegame=Middle game
+endgame=End game
+
+[dialog.bookmgr]
+caption=Book manager
+nobooks=There are no books to show
+invalidbook=This is not a valid EThinker book file.
+name=Name
+cloudbook=Cloud book
+method=Method
+best=Best move
+random=Random move
+redmovecount=Red round
+blackmovecount=Black round
+leastscore=Score >=
+path=Book File
+unnamed=unnamed
+unpathed=click here to specify the book file
+analyzing=Analyzing...
+
+[dialog.timemgr]
+caption=Time scheme manager
+help=Help
+notimechemes=There are no pensonal schemes to show
+invalidscheme=<Invalid scheme> 
+forcemovefmt=Hosting move time：%s second(s)
+name=Name
+description=Scheme Code
+fixedtemplatename=Fixed 1s to 3s
+normaltemplatename=3 Minutes Game
+scoretemplatename=Score -> Move Time
+schememgrinfo=Personal Schemes 
+primaryinfo=Policy (Time Unit: Second) 
+advanceinfo=High Priority Advanced Policy (Time Unit: Second) 
+timemodefixed=Move Time ～ Depth
+timemodenormal=Match Time
+timemodescore=Based on Score 
+fixedtime=Fixed Move Time
+fixeddepth=Fixed Move Depth
+normaltotal=Total Time
+normalmove=Maximum Move Time
+normalcountdown=Countdown
+normalincrement=Increment
+scoretitle=Score ≥
+scoremove=Move Time
+advanceconnectordelay=Connector Move Delay
+advancestartmovetime=Move Time For OpenRule
+advancestartmoves=Used in n moves after started
+advanceleftbookmovetime=Leaving Book Move Time
+advanceleftbookmoves=Used in n moves after left book
+advancefinalmovetime=Endgame Move Time
+advancefinalmoves=Used after n seconds
+advancedelaymodeinfo=Based on which side?
+advancemodemyside=My side
+advancemodeoppside=Opp side
+changemodeinfo=Are you sure you want to change policy from "%s" to "%s" ?
+schemedescription=%s Code: %s
+advancereset=Reset
+
+[dialog.userbookmgr]
+caption=Book user tool
+search=Search
+add=Add
+delete=Delete
+pathinfo=EThinker encrypted book
+update=Update
+
+[dialog.editbook]
+caption=Edit book
+movename=Name
+score=Score
+wincount=Win count
+drawcount=Draw count
+losscount=Loss count
+status=Status
+valid=Enabled
+invalid=Disabled
+add=Add
+modify=Modify
+
+[dialog.save]
+caption=Save game
+selectfile=Save to
+selectfolder=Please select the folder
+title=Game information
+event=Event
+site=Site
+time=Time
+round=Round
+red=Red
+redteam=Red team
+black=Black
+blackteam=Black team
+result=Result
+win=Red win
+draw=Draw
+loss=Black win
+unknown=Unknown
+
+[dialog.detail]
+caption=Thinking details
+
+[dialog.settime]
+caption=Set Left Time
+minute=min
+second=s
+
+[dialog.importbook]
+caption=Import pgn files to book
+loadingfiles=Loading %d pgn files...
+writebookentries=Write %d book entries...
+cancelled=Cancelled importing
+finished=Finished importing
+report=%s. Time elapsed: %d second(s).\r\n%d files are analyzed, %d valid files are handled.\r\n%d moves are extracted. %d moves updated, and %d moves added.
+
+[dialog.convertbook]
+caption=Convert a book
+bh2tj=BH->EThinker
+tj2bh=EThinker->BH
+convert=Convert
+saveusers=Save users
+encrypt=Encrypt
+confirmdelete=Are you sure you want to delete the following user?
+inputbook=Input book
+outputbook=EThinker book
+loadbherr=Failed to load Binghe book
+loadingbh=Loading Binghe book...
+writetjerr=Failed to write EThinker book
+writingtj=Writing EThinker book...
+loadtjerr=Failed to load EThinker book
+bh2tianji=Converting...
+writebherr=Failed to write Binghe book
+encryptd=encrypted
+unencrypted=unencrypted
+cannotencrypt=Only registered book author can generate enrypted book.
+done=Finished generating EThinker book (%s), time elasped: %d second(s).
+name=Name
+hid=Hid
+start=Start Date
+end=End Date
+memo=Memo
+newuser=User name
+wrongname=The name of the selected user is invalid.
+wronghid=The hardware id of the selected user is invalid.
+wrongdate=The date of the selected user is invalid.
+bookuserhelptitle=The following user(s) can use encrypted book 
+notimechemes=There are no users to show
+
+[dialog.makebook]
+caption=Make a book
+settings=Settings 
+encrypt=Encrypt
+selectfolder=Please select the folder
+fileinfo=File information
+config=Settings...
+make=Make
+cancel=Cancel
+folder=Directory of PGN files
+file=EThinker book
+loadingfiles=Loading %d pgn files...
+writeerr=Failed to write EThinker book
+writing=Writing EThinker book...
+done=Finished making, time elasped: %d second(s).
+cancelled=Making Cancelled
+min_movecount=Chess manual move count >=
+startindex=Start index
+endindex=End index
+min_winrate=Win rate (percentage) >= 
+min_poscount=Occurrence count >=
+min_wincount=Win count >=
+win_score=Win score
+draw_score=Draw score
+loss_score=Loss score
+min_score=Score (win count * win score + draw count * draw score - loss count * loss score) >=
+
+[dialog.appendbookmoves]
+appendcaption=Append moves to book
+import=Ok
+delete=Delete
+range=Range
+startfrom=Start from
+endwith=End with
+side=Side
+appendred=Red moves
+appendblack=Black moves
+appendboth= Both moves
+result=Resultd
+redwin=Red win
+draw=Draw
+blackwin=Black win
+allownote=Note
+method=Method
+ignoreexist=Ignore existed Moves
+updateall=Update all moves
+score=Score
+winscore=Win
+drawscore=Draw
+lossscore=Loss
+fixed=Fixed score value
+adjust=Adjust score value
+
+[dialog.autoclicking]
+caption=Auto-clicking scheme Manager
+notimechemes=There are no auto-clicking schemes to show
+imageinfo=Please click the position to be programmatically clicked
+textinfo=Please input features and the target text
+textdetail=Please view Menu->Help->Connector for the details about Auto-Clicking
+object=Object
+type=Type
+feature=Feature
+target=Target
+clickedcount=Count
+updatedtime=Time
+imagetype=Image
+texttype=Text
+speedtitle= Clicking Speed: 
+speedfast=Fast
+speednormal=Normal
+speedslow=Slow
+
+[dialog.loginyitian]
+caption=Connect to Yitian
+username=User name
+password=Password
+visitor=Visitor login
+login=Log in
+downloadclient=Download Yitian Client
+loginhelp=No account yet?
+
+[dialog.update]
+caption=Update EThinker
+downloading=Downloading...
+updateinfo=New EThinker found! You can update your EThinker from <%s> to <%s>. Do you wish to update?
+updatefailed=Update failed with error %s
+hasherror=The installer is damaged, please try again later.

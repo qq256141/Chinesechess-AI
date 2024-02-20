@@ -1,0 +1,716 @@
+[file]
+description=English
+
+[app]
+caption=EThinker
+selectpgnfolder=Please select the folder to be imported
+noneedupdate=Your EThinker is up to date.
+pgndesc=PGN files
+obxmldesc=Open book information exchange files
+exedesc=Executable files
+obkdesc=Book files
+gifdesc=GIF files
+webmdesc=WebM files
+fendesc=FEN files
+ok=Ok
+cancel=Cancel
+add= Add 
+delete= Delete 
+up= Up 
+down= Down 
+find= Find 
+unknown=unknown
+changelayout=EThinker needs to restart to apply the layout change, do you wish to continue?
+loadschemeerror=Failed to load the following schemem files from the following directories:\r\n\r\n%s\r\n\r\n%s\r\n
+buildunavailable=This build is not available any more, please use the latest one.
+registering=Registering...
+registersucceed=Registered
+registerfailed=Register failed
+changemovehelp=Right-clicking <Chang thinking move> button to think all moves again
+forcemovehelp=0 means disabled; 0.5-3 means a random value between 0.5 and 3
+needvalidengine=Please configure at least one valid engine.
+
+[statusbar]
+invalidengine=Invalid
+loadenginefailed=The following engine(s) can't be loaded:
+secondname= s
+depthname=
+
+[menu]
+file= File 
+file.exit=Exit
+
+game= Game 
+game.ponder=Ponder
+game.usebook=Use book
+game.usebook.open=Open book
+game.usebook.cloudend=Cloud end book
+game.playsound=Play sound
+game.showclock=Show clock
+
+position= Position
+game.syncmove=Synchonize move to target
+game.switchside=Switch moving side
+position.editposition=Set-up a position...
+position.copypositionimage=Copy position.Image
+position.copymovestext=Copy moves.Text
+position.genmovesgif=Generate moves.GIF...
+position.genmovesvideo=Generate moves.Video...
+
+view= View 
+view.layout=Layout
+view.layout.horizontal=Horizontal layout
+view.layout.vertical=Vertical layout
+view.layout.tiled=Tiled layout
+view.window=Window
+view.bgscheme=Background scheme
+view.boardscheme=Board scheme
+view.piecescheme=Piece scheme
+view.schemesize=Scheme size
+view.schemesize.small=Small
+view.schemesize.medium=Medium
+view.schemesize.large=Large
+view.language=Language
+view.configview=Customize board appearance...
+
+mgr= Manage 
+mgr.book=Manage books...
+mgr.engine=Manage engines...
+mgr.time=Manage time schemes...
+mgr.energy=Manage energy...
+mgr.autoclicking=Manage auto-clicking schemes...
+
+tool= Tools 
+tool.makebook=Make a book...
+tool.convertbook=Convert a book...
+tool.optimizebook=Optimize a book...
+tool.tournament=Engine tournament...
+tool.bookusers=Book user tool...
+
+help= Help 
+help.connector=Connector...
+help.yitian=Yitian...
+help.multiengines=Multiple engines...
+help.updatecheck=Check for updates
+help.about=About EThinker...
+
+[toolbar]
+file.new=Start a new game
+file.open=Open file...
+file.save=Save game...
+
+position.copypositioncode=Copy position.Code
+position.copymovescode=Copy moves.Code
+position.paste=Paste [Position • MoveList • Image]
+game.red=Computer is red
+game.black=Computer is black
+game.analyze=Analyze
+game.move=Stop thinking and move
+game.beginning=Move to beginning position
+game.backward4=Move backward 4 steps
+game.backward1=Move backward 1 step
+game.foreward1=Move foreward 1 step
+game.foreward4=Move foreward 4 steps
+game.end=Move to end position
+game.changemove=Chang thinking move
+connector.connect=Connect to other board
+connector.disconnect=Disconect
+connector.autosync=Auto synchronize Human-Machine move
+connector.topmosttarget=Make target window topmost
+connector.disabletargetminimized=Disable target window minimization
+connector.autoclicking=Auto clicking when connecting
+connector.sync=Synchronize move to target board
+connector.config=Connector configuration
+connector.forcemoveprefix=Auto move time
+connector.forcemovepostfix=second(s)
+yitian.connect=Connect to Yitian
+view.flip=Flip board
+view.topmost=Always on top
+
+[view.move]
+caption=Moves
+cloudname=Cloud
+name=Name
+source=Source
+score=Score
+winrate=Win rate
+win=Win
+draw=Draw
+loss=Loss
+rank=Rank
+status=Status
+note=Notes
+enabled=✓
+disabled=✗
+book.add=Add book entry...
+book.modify=Modify book entry...
+book.delete=Delete book entry
+book.importfromfolder=Import book moves from PGN files
+book.deletewithfolder=Delete book moves with PGN files
+book.importfiles=Import files into book...
+book.export=Export book...
+movenote=Move note
+exporting=Exporting obxml file, please wait...
+notauthor=Only book author can modify, convert, optimize or export encrypted book.
+
+[view.thinking]
+caption=Thinking
+depth=Depth: 
+score=Score: 
+time=Time: 
+nps=NPS: 
+space=   
+questionmark= ? 
+ponder=Ponder
+moves=Moves
+copysel=Copy selected moves
+copyall=Copy all moves
+configengine=Configure%s...
+configcolor=Customize visual effects...
+configgamephase=Customize open.middle.end game...
+
+[view.history]
+caption=History
+name=Name
+score=Score
+depth=Depth
+time=Time
+book.appendmoves=Append moves to book...
+book.deletemoves=Delete moves from book...
+
+[view.yitian]
+title=Yitian
+caption=Yitian
+autoconnectingrunning=Yitian feature can't work together with auto connecting.
+connecting=Connecting to Yitian...
+number=Table
+redname=Red
+blackname=Black
+title=Title
+score=Score
+type=Type
+exit=Log out
+observe=Watch game
+changeside=Change side
+agree=Agree game
+join=Join game
+leave=Leave table %s
+requestdraw=Request draw
+judge=Arbitrate
+surrender=Give up
+redscore=Red score
+blackscore=Black score
+statusfmt=[name] is on [site]
+watchingfmt=[name] is watching game on table [tableid] on [site]
+waitingfmt=[name] is waiting on table [tableid] on [site]
+playingfmt=[name] is playing game on table [tableid] on [site]
+requestgame=Do you want to play game with [%s]?
+autoplaying=Auto playing
+collectgame=Collect games
+gamebanned=You lose the game qualification.
+
+[connector]
+redtomove=Red to move
+blacktomove=Black to move
+yourturn=Your turn, press F5 or double click board to synchronize
+
+[dialog.about]
+caption=About EThinker
+website=Official website:
+description=EThinker (%d-bit) Version %ws
+hid=Hardware id: %s
+copy=Copy hardware id
+copysucceed=Hardware id has been copied to clipboard.
+copyfailed=Failed to copy hardware id to clipboard, please restart EThinker or Windows, and try again.
+
+[dialog.editposition]
+caption=Position editor
+help=Right click to cancel picked piece or delete on-board piece 
+invalidfen=Invalid position, please check and re-position pieces.
+redtomove=Red to move
+blacktomove=Black to move
+startfen=Start Position
+currentfen=Current Position
+endfen=End Position
+normaldirection=Normal layout
+flippeddirection=Flipped layout
+
+[dialog.enginemgr]
+caption=Engine manager
+noengines=There are no engines to show
+repeatedcondition=Condition "%s" is repeatedly used, which is incorrect.
+name=Name
+author=Author
+thread=Thread
+hash=Hash table
+path=Engine object
+unnamed=unnamed
+unpathed=click here to specify the engine object
+phase=Phase
+fullgame=For full game
+opengame=For open game
+middlegame=For middle game
+endgame=For end game
+loadingengines=Loading engine(s)
+loadenginefailed=Failed to load the following engine(s):
+noname=[Click to choose engine]
+
+[dialog.energymgr]
+caption=Energy manager
+noconditions=[Empty]
+analyzebook= When still in book 
+analyzebookon=Start Thinking
+analyzebookoff=Stop Thinking
+basicinfo=Energy saving condition 
+energyenabled= Enabled 
+energyendisabled= Disabled 
+winmode=Win mode
+drawmode=Draw mode
+invalidscore=The configured score doesn't look like a reasonable value. Please note an open pawn values 1.
+winscoretitle=Score ≥
+drawscoretitle=|Score| ≤
+depthtitle=Depth ≥
+on=On
+off=Off
+policyinfo=Energy saving policy 
+policyemptyinfo=[Empty]
+policythread=Thread count?
+policyponder=Ponder?
+policyaccratio=Speedup ?x
+
+[dialog.bookmgr]
+caption=Book manager
+nobooks=There are no books to show
+invalidbook=This is not a valid EThinker book file.
+name=Name
+cloudbook=Cloud book
+method=Method
+best=Best move
+random=Random move
+redmovecount=Red round
+blackmovecount=Black round
+leastscore=Score >=
+path=Book File
+unnamed=unnamed
+unpathed=click here to specify the book file
+analyzing=Analyzing...
+
+[dialog.timemgr]
+caption=Time scheme manager
+help=Help
+notimechemes=There are no pensonal schemes to show
+invalidscheme=<Invalid scheme> 
+forcemovefmt=Hosting move time：%s second(s)
+name=Name
+description=Scheme Code
+fixedtemplatename=Fixed 1s to 3s
+normaltemplatename=3 Minutes Game
+scoretemplatename=Score -> Move Time
+schememgrinfo=Personal Schemes 
+primaryinfo=Policy (Time Unit: Second) 
+advanceinfo=High Priority Advanced Policy (Time Unit: Second) 
+timemodefixed=Move Time ～ Depth
+timemodenormal=Match Time
+timemodescore=Based on Score 
+fixedtime=Fixed Move Time
+fixeddepth=Fixed Move Depth
+normaltotal=Total Time
+normalmove=Maximum Move Time
+normalcountdown=Countdown
+normalincrement=Increment
+scoretitle=Score ≥
+scoremove=Move Time
+advanceconnectordelay=Connector Move Delay
+advancestartmovetime=Move Time For OpenRule
+advancestartmoves=Used in n moves after started
+advanceleftbookmovetime=Leaving Book Move Time
+advanceleftbookmoves=Used in n moves after left book
+advancefinalmovetime=Endgame Move Time
+advancefinalmoves=Used after n seconds
+advancedelaymodeinfo=Based on which side?
+advancemodemyside=My side
+advancemodeoppside=Opp side
+changemodeinfo=Are you sure you want to change policy from "%s" to "%s" ?
+schemedescription=%s Code: %s
+advancereset=Reset
+
+[dialog.userbookmgr]
+caption=Book user tool
+search=Search
+add=Add
+delete=Delete
+pathinfo=EThinker encrypted book
+update=Update
+
+[dialog.editbook]
+caption=Edit book
+movename=Name
+score=Score
+wincount=Win count
+drawcount=Draw count
+losscount=Loss count
+status=Status
+valid=Enabled
+invalid=Disabled
+add=Add
+modify=Modify
+
+[dialog.save]
+caption=Save game
+selectfile=Save to
+selectfolder=Please select the folder
+title=Game information
+event=Event
+site=Site
+time=Time
+round=Round
+red=Red
+redteam=Red team
+black=Black
+blackteam=Black team
+result=Result
+win=Red win
+draw=Draw
+loss=Black win
+unknown=Unknown
+
+[dialog.detail]
+caption=Thinking details
+
+[dialog.settime]
+caption=Set Left Time
+minute=min
+second=s
+
+[dialog.importbook]
+appendcaption=Import book moves from PGN files
+deletecaption=Delete book moves with PGN files
+loadingfiles=Loading %d PGN files...
+writebookentries=Writing %d book entries...
+writebooknotes=Writing %d book notes...
+cancelled=Cancelled updating
+finished=Finished updating
+report=%s. Time elapsed: %d second(s).\r\n%d files are analyzed, %d valid files are handled.\r\n
+
+[dialog.convertbook]
+caption=Convert a book
+bh2tj=BH->EThinker
+tj2bh=EThinker->BH
+convert=Convert
+saveusers=Save users
+encrypt=Encrypt
+confirmdelete=Are you sure you want to delete the following user?
+inputbook=Input book
+outputbook=EThinker book
+loadbherr=Failed to load Binghe book
+loadingbh=Loading Binghe book...
+writetjerr=Failed to write EThinker book
+writingtj=Writing EThinker book...
+loadtjerr=Failed to load EThinker book
+bh2tianji=Converting...
+writebherr=Failed to write Binghe book
+encryptd=encrypted
+unencrypted=unencrypted
+cannotencrypt=Only registered book author can generate enrypted book.
+done=Finished generating EThinker book (%s), time elasped: %d second(s).
+name=Name
+hid=Hid
+start=Start Date
+end=End Date
+memo=Memo
+newuser=User name
+wrongname=The name of the selected user is invalid.
+wronghid=The hardware id of the selected user is invalid.
+wrongdate=The date of the selected user is invalid.
+bookuserhelptitle=The following user(s) can use encrypted book 
+notimechemes=There are no users to show
+
+[dialog.makebook]
+caption=Make a book
+settings=Settings 
+encrypt=Encrypt
+selectfolder=Please select the folder
+fileinfo=File information
+config=Settings...
+make=Make
+cancel=Cancel
+folder=Directory of PGN files
+file=EThinker book
+loadingfiles=Loading %d PGN files...
+writeerr=Failed to write EThinker book
+writing=Writing EThinker book...
+done=Finished making, time elasped: %d second(s).
+cancelled=Making Cancelled
+min_movecount=Chess manual move count >=
+startindex=Start index
+endindex=End index
+min_winrate=Win rate (percentage) >= 
+min_poscount=Occurrence count >=
+min_wincount=Win count >=
+win_score=Win score
+draw_score=Draw score
+loss_score=Loss score
+min_score=Score (win count * win score + draw count * draw score - loss count * loss score) >=
+
+[dialog.optimizebook]
+caption=Optimize a book
+file=EThinker book
+countinfo=How to deal with position count infomation?
+statusinfo=How to deal with disabled book moves?
+scoreinfo=Delete book moves when score <= ?
+deleteinfo=Delete
+keepinfo=Keep
+optimizehint=Optimization method 
+optimizeinfo=Optimizae
+invalidbook=Please specify a valid Tianji book.
+optimizedone=Finished optimizating. 
+
+[dialog.appendbookmoves]
+appendcaption=Append moves to book
+deletecaption=Delete moves from book
+import=Ok
+delete=Delete
+range=Range
+startfrom=Start from
+endwith=End with
+side=Side
+appendred=Red moves
+appendblack=Black moves
+appendboth= Both moves
+result=Resultd
+redwin=Red win
+draw=Draw
+blackwin=Black win
+allownote=Note
+method=Method
+ignoreexist=Ignore existed Moves
+updateall=Update all moves
+score=Score
+winscore=Win
+drawscore=Draw
+lossscore=Loss
+fixed=Fixed score
+basedonmovescore=+/- move score
+basedonposmaxscore=Based on position maximum score
+updateposcount=Update position count
+updateallbooks=Update all EThinker books in book manager
+
+[dialog.autoclicking]
+caption=Auto-clicking scheme Manager
+notimechemes=There are no auto-clicking schemes to show
+imageinfo=Please click the position to be programmatically clicked
+textinfo=Please input features and the target text
+textdetail=Please view Menu->Help->Connector for the details about Auto-Clicking
+object=Object
+type=Type
+feature=Feature
+target=Target
+clickedcount=Count
+updatedtime=Time
+imagetype=Image
+texttype=Text
+speedtitle= Clicking Speed: 
+speedfast=Fast
+speednormal=Normal
+speedslow=Slow
+save=Yes
+nosave=No
+saveimage=Save image
+
+[dialog.loginyitian]
+caption=Connect to Yitian
+username=User name
+password=Password
+visitor=Visitor login
+login=Log in
+downloadclient=Download Yitian Client
+loginhelp=No account yet?
+
+[dialog.update]
+caption=Update EThinker
+downloading=Downloading..., will then update and restart EThinker
+updateinfo=New EThinker found! You can update your EThinker from <%s> to <%s>. Do you wish to update?
+updatefailed=Update failed with error %s
+hasherror=The installer is damaged, please try again later.
+
+[dialog.animation]
+gifcaption=Generate GIF
+videocaption=Generate Video
+configinfo=Settings 
+dstfile=File
+textcolor=Text color
+texttransparency=Text transparency (%)
+textsize=Text font size
+customizedinfo=Customized info
+textfont=Text font name
+textposition=Text position
+movetime=Move interval
+imagesize=Image size
+top=Top
+bottom=Bottom
+small=Small
+medium=Medium
+large=Large
+show=Yes
+noshow=No
+showmoveindex=Show move index
+generate=Generate
+needpath=Please specify the file to be generated.
+writefailed=Failed to write the target file. Please validate its path, and close all applications that are opening it.
+
+[dialog.thinkcolor]
+caption=Customize Visual Effects
+RedGoodTitle=Basic color for red good
+RedGoodScore=Score color for red good
+BlackGoodTitle=Basic color for black good
+BlackGoodScore=Score color for black good
+CompactLayout=Compact Infomation
+reset=Scheme template
+scheme1=Color scheme 1
+scheme2=Color scheme 2
+schemeeffect=Scheme effect 
+
+[dialog.engineoption]
+caption=Configure Engine
+reset=Restore default values
+emptyinfo=There are no engine options to show
+info=Engine Parameters 
+optionname=Option name
+optiondesc=Description
+optionvaluerange=Value range
+optionvlaue=Option value
+true=True
+false=False
+advcfginfo=Advanced settings as a secnodary engine (an open pawn values 1) 
+scorepbegin=Engine score ✕
+score1postfix=if score >=
+score2postfix=if score - main engine score >=
+scoreend=use this engine
+alwaysthinking=Always thinking (even not in its phase)
+
+[dialog.configview]
+caption=Customize Board Appearance
+showthinking=Show thinking moves
+primarymoveonly=Show primary move only
+hideoppmoves=Don't show opponent move
+redengineidcolor=Color of red engine id
+redmovecolor=Color of red move
+redprimarytransparency=Transparency of red primary move (%)
+redsecondarytransparency=Transparency of red secondary move (%)
+blackengineidcolor=Color of black engine id
+blackmovecolor=Color of black move
+blackprimarytransparency=Transparency of black primary move (%)
+blacksecondarytransparency=Transparency of black secondary move (%)
+boardtransparency=Transparency of board
+centerboard=Show board in window center
+reset=Scheme templates
+yes=Yes
+no=No
+scheme1=Color of engine id: Red-Green
+scheme2=Color of engine id: Red-Blue
+scheme3=Color of engine id: Red-Black
+info=Run engine analyzing to view the effect 
+
+[dialog.tournament]
+caption=Engine tournament
+timemgr=Tournament time manager
+rank=Rank
+engname=Name
+oppname=Opponent
+win=Win
+draw=Draw
+loss=Loss
+score=Score
+percentage=Win(%)
+deltaelo=Δ ELO
+name=Name
+createtime=Creation Time
+updatetime=Update Timer
+progress=Progress
+status=Status
+new=New (click to rename)
+ready=Not started
+playing=Playing
+paused=Paused
+completed=Completed
+add=Add
+delete=Delete
+start=Start
+pause=Pause
+config=Config
+namerepeat=This name already exists.
+startfailed=Failed to start tournament, please re-configure it.
+realtimeinfo=Realtime Game Infomation 
+reason_60moves=No capture move in 120 moves
+reason_200moves=Reach 400 moves limitation
+reason_win=Red win
+reason_loss=Black win
+reason_judgedraw=Auto judged draw
+exportreport=Export report
+exportqipu=Export qipu
+resetgames=Reset
+resetconfirm=Are you sure you want to reset all games and re-configure tournament?
+backuptournament=Backup tournament
+backuptournamentdone=Finished backup.
+showsummary=Show summary
+showdetail=Show Details
+exportfolder=Please choose the directory
+exportinfo=%d games are exported.
+deleteinfo=Are you sure you want to delete "%ws"?
+usedbyother=The tournament is hold by other EThinker.
+fennotfound=Failed to generate position for the next match. Please reset tournament, then try using Random Move for this book, or use another book with more open moves.
+
+[dialog.tournamentconfig]
+caption=Tournament configuration
+addengine=Add engine
+delengine=Delete engine
+engines=Engines
+thread=Thread
+hash=Hash
+timesheme=Time
+book=Book
+choosehint=Click to choose
+fromfenfile=From fen file
+frombookfile=From book
+randomchoose=Random choose
+1vsx=1 vs others
+xvsx=Round-Robin
+mode1info=The first engine is the primary one 
+roundcount=Round count
+taskcount=Task count
+asian=Asian rule
+chinese=Chinese rule
+booksourceinfo=(Please configure book for each engine)
+limitinfo=(Please follow engine limitation)
+autojudge=Auto judgement
+moveround=Move round ≥
+scoreabs=|Score| ≤
+invalidfenfile=No valid fen file specified.
+invalidbook=No valid book specified.
+invalidtime=No valid time scheme specified.
+repeatengine=Found engines with same Name.Thread.Hash.
+invalidenginecount=At least two engines are needed.
+errorinfo=Found the following error. Do you want to save the configuration and close this dialog?
+fencount=This FEN file contains %d valid positions.
+
+[dialog.gamephase]
+caption=Custmomize Game Phase
+definevalue=Chess type value definiation 
+definephase=Game phase definiation 
+addtioninfo=Calculate value based on type value and given fen 
+totalvaluehint=Total value = \n(Total A) x (A value) +\n(Total B) x (B value) +\n(Total N) x (N value) +\n(Total R) x (R value) +\n(Total C) x (C value) +\n(Total P) x (P value) 
+maxtotalvalueinfo=Maximum total value
+feninfo=Fen to be checked
+totalvalue=Total value
+opengame=Open game ->
+middlegame=Middle game ->
+endgame=End game ->
+largeoe=When total value ≥
+smalloe=When total value ≤
+openthresholderr=The total value of open phase is larger than the maximum total value based on chess type value definiation. Are you sure you want to keep this configuration?
+endthresholderr=The total value of open phase is smaller than end phase's. Are you sure you want to keep this configuration?
+reset=Template
+template1=Based on major pieces
+template2=Based on attack pieces
+template3=Based on all pieces
+template4=Based on piece power
